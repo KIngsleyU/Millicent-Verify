@@ -75,6 +75,9 @@ docs/_build/
 .pybuilder/
 target/
 
+# Transcrypt build output
+__target__/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
