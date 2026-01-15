@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Slope via Server",
+  "version": "1.0.0",
+  "description": "Send 3 numbers to a local Python (sklearn) server to get the slope.",
+  "action": {
+    "default_title": "Compute slope",
+    "default_popup": "popup.html"
+  },
+  "permissions": [],
+  "host_permissions": ["http://localhost:5050/*"]
+}
+
